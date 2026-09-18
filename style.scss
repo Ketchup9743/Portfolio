@@ -1,7 +1,11 @@
+$blue: #1870D9;
+$black: #302A29;
+
+
 .links {
     color: 
 }
 body {
-    background-color: #302A29;
-    color: #1870D9;
+    background-color: $black;
+    color: $blue;
 }
