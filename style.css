@@ -4,6 +4,10 @@
 
 body {
     background-color: #302A29;
-    color: #1359A8;
+    color: #1C65B8;
     font-family: sans-serif;
+}
+.buttons {
+    background-color: #4F444D;
+    color: #CC29B6;
 }
