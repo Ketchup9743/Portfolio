@@ -7,6 +7,11 @@ body {
     color: #BF2CBA;
     font-family: sans-serif;
 }
+
+body.light-theme {
+    background-color: #F4EFFF;
+    color: #512A78;
+}
 .buttons {
     display: flex;
     gap: 7px;
