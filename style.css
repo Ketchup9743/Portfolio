@@ -38,5 +38,6 @@ main {
     align-items: center;
     justify-content: center;
     height: 250px;
-    font-size: 35px;
+    font-size: 25px;
+    font-style: normal;
 }
