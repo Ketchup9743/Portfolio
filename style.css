@@ -6,10 +6,11 @@ body {
     background-color: #302A29;
     color: #BF2CBA;
     font-family: sans-serif;
+    letter-spacing: 1px
 }
 .buttons {
     display: flex;
-    gap: 4px;
+    gap: 7px;
 }
 
 .buttons button {
@@ -29,7 +30,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 main {
     display: flex;
