@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Liam Lessard - Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,7 +26,16 @@
         <button id="socials" type="button" data-page="socials.html">Socials</button>
         <button id="projects" type="button" data-page="projects.html">Projects</button>
         <button id="bio" type="button" data-page="bio.html">About Me</button>
-        <button id="theme" type="button">Change Theme</button>
+        <div class="theme-picker-wrap">
+          <button id="theme" type="button" aria-expanded="false">Change Theme</button>
+          <div id="theme-menu" class="theme-menu hidden" role="menu" aria-label="Theme select">
+            <button class="theme-option selected" type="button" data-theme="toffee" role="menuitem"><span class="theme-swatch toffee"></span>Toffee</button>
+            <button class="theme-option" type="button" data-theme="green" role="menuitem"><span class="theme-swatch green"></span>Green</button>
+            <button class="theme-option" type="button" data-theme="purple" role="menuitem"><span class="theme-swatch purple"></span>Purple</button>
+            <button class="theme-option" type="button" data-theme="red" role="menuitem"><span class="theme-swatch red"></span>Red</button>
+            <button class="theme-option" type="button" data-theme="blue" role="menuitem"><span class="theme-swatch blue"></span>Blue</button>
+          </div>
+        </div>
       </div>
     </main>
   </div>
