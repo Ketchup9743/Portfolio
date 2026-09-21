@@ -1,29 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Liam Lessard - Bio</title>
-  <link rel="stylesheet" href="style.scss">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h2>About Me</h2>
-  </header>
-  <main>
-    <p>Here is some basic information about myself</p>
-    <h3>Code Stack:</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>SCSS</li>
-      <li>YAML</li>
-    </ul>
-    <h3>Basic Info</h3>
-    <ul>
-      <li>Age: 16</li>
-      <li>Favorite Color: Blue/Purple</li>
-    </ul>
-  </main>
-  <footer>
-  </footer>
+  <div class="page-shell">
+    <header class="site-header">
+      <nav class="topbar" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="socials.html">Socials</a>
+      </nav>
+      <h1>About Me</h1>
+    </header>
+
+    <main>
+      <p class="intro-copy">I enjoy building web pages, and am currently learning frameworks such as Tailwind CSS.</p>
+
+      <section class="info-grid">
+        <article class="card">
+          <h3>Tech Stack</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SCSS</li>
+            <li>JavaScript</li>
+            <li>Git / GitHub</li>
+            <li>YAML</li>
+            <li>Cloudflare Pages</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>What I Want to Learn</h3>
+          <ul>
+            <li>Python</li>
+            <li class="current">Tailwind CSS <span>Current</span></li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Bootstrap</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Java</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Profile</h3>
+          <ul>
+            <li>Age: 16</li>
+            <li>Location: Student developer</li>
+            <li>Focus: Front-end design and web projects</li>
+            <li>Style: Minimal, functional, professional</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </div>
 </body>
 </html>

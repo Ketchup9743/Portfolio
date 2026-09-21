@@ -1,26 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Liam Lessard - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="body">
-  <header>
-    <h2>Welcome!</h2>
-  </header>
-  <main>
-    <h4>Hello! This is where I display my dev work for you guys to see! There is also a bio section so you can learn more about me, aswell as a socials page incase you wish to contact me!</h4>
-    <div class="buttons">
-    <button id="socials" type="button" onclick="window.location.href='socials.html'">Socials</button>
-    <button id="projects" type="button" onclick="window.location.href='projects.html'">Projects</button>
-    <button id="bio" type="button" onclick="window.location.href='bio.html'">About Me</button>
-    <button id="theme" type="button">Change Theme</button>
-    </div>
-  </main>
-  <footer>
-  </footer>
+  <div class="page-shell">
+    <header class="site-header">
+      <nav class="topbar" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="bio.html">Bio</a>
+        <a href="projects.html">Projects</a>
+        <a href="socials.html">Socials</a>
+      </nav>
+      <h1>Welcome</h1>
+    </header>
+
+    <main>
+      <p class="intro-copy">Hello! This is where I display my development work for you to explore. There is also a bio section so you can learn more about me, as well as a socials page if you want to get in touch.</p>
+      <div class="buttons">
+        <button id="socials" type="button" data-page="socials.html">Socials</button>
+        <button id="projects" type="button" data-page="projects.html">Projects</button>
+        <button id="bio" type="button" data-page="bio.html">About Me</button>
+        <button id="theme" type="button">Change Theme</button>
+      </div>
+    </main>
+  </div>
+
   <script src="script.js"></script>
-</div>
 </body>
 </html>
