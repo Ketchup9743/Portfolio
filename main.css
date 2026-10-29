@@ -17,3 +17,8 @@ a {
     color: #D5DE57;           
     display: inline;
 }
+
+.Bio, .AboutMe {
+    margin-left: auto;
+    margin-right: auto
+}
