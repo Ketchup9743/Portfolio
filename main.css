@@ -19,11 +19,9 @@ a {
 }
 
 .Bio {
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 .AboutMe {
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
