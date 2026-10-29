@@ -9,9 +9,11 @@ a {
 }
 
 .beginner {
-    color: 6FDE98
+    color: 6FDE98;
+    display: inline;
 }
 
 .intermediate {
-    color: D5DE57
+    color: D5DE57;
+    display: inline;
 }
