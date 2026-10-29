@@ -6,5 +6,5 @@ showcaseBtn.addEventListener('click', function() {
 });
 
 homeBtn.addEventListener('click', function() {
-  window.location.href = 'index.html';
+  window.location.href = 'showcase.html';
 });
