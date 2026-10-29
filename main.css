@@ -18,10 +18,6 @@ a {
     display: inline;
 }
 
-.Bio {
-    text-align: center;
-}
-
-.AboutMe {
+.bio-section{
     text-align: center;
 }
