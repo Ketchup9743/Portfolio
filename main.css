@@ -18,7 +18,12 @@ a {
     display: inline;
 }
 
-.Bio, .AboutMe {
+.Bio {
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+}
+
+.AboutMe {
+    margin-left: auto;
+    margin-right: auto;
 }
