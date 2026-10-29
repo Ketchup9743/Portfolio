@@ -1,19 +1,19 @@
 body {
     font-family: sans-serif;
-    background-color: 29252B;
-    color: 878787;
+    background-color: #29252B; 
+    color: #878787;            
 }
 
 a {
-    color: 807A7A
+    color: #807A7A;            
 }
 
-.beginner {
-    color: 6FDE98;
+.Beginner {                    
+    color: #6FDE98;            
     display: inline;
 }
 
-.intermediate {
-    color: D5DE57;
+.Intermediate {               
+    color: #D5DE57;           
     display: inline;
 }
