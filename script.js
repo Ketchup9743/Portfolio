@@ -15,7 +15,7 @@ if (homeBtn) {
 }
 
 if (contactBtn) {
-  home.Btn.addEventListener('click', function() {
+  contactBtn.addEventListener('click', function() {
     window.location.href = 'contact.html';
   });
 }
